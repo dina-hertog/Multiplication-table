@@ -1,6 +1,6 @@
 """
 multiplication-table.py
-Author: <your name here>
+Author: Dina
 Credit: <list sources used, if any>
 Assignment:
 
@@ -26,6 +26,4 @@ height = input("Height of the multiplication table:")
 
 for y in range(int(width)):
     for x in range(int(height)):
-        print("x","x")
-
-    
+        print(y*x)
