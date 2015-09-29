@@ -26,5 +26,7 @@ height = input("Height of the multiplication table:")
 
 for y in range(1, int(width)+1):
     for x in range(1, int(height)+1):
+        while len(str(y*x)) > len(str(width)):
+            str(width + " ")
         print(y*x, end=' ')
         if x==len(range(0, int(width))): print()
