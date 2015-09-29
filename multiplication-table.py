@@ -28,7 +28,7 @@ print (a)
 
 for y in range(1, int(width)+1):
     for x in range(1, int(height)+1):
-        #while len(str(a)) > len(str(y*x)): #while loop is not working
+        while a > len(str(y*x)): #while loop is not working
            # str(y*x + " ")
         print(y*x, end=' ')
         if x==len(range(0, int(width))): print()
