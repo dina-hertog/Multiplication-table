@@ -22,7 +22,7 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 width = input("Width of multiplication table:")
-height = input("Height of the multiplication table:")
+height = input(" Height of the multiplication table:")
 a = len(str(int(width)*int(height)))
 
 for y in range(1, int(width)+1):
