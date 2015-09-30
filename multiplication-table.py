@@ -29,6 +29,6 @@ for y in range(1, int(width)+1):
     print("")
     for x in range(1, int(height)+1):
         #print(y*x, end=' ')
-        print("{0:>3}".format(y*x), end='')
+        print("{0:>3}".format(y*x), end=' ')
         #if x==len(range(0, int(width))): print()
         
